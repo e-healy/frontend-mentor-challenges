@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+    font-family: "Figtree", sans-serif;
+    border-radius: 0.75rem;
+    border: 2px solid black;
+    box-shadow: 2px 2px 4px;
+    max-width: 380px;
+}
+
+.container img {
+    max-width: 350px;
+    height: auto;
+    align-self: center;
+    border-radius: 0.75rem;
+    margin-bottom: 15px;
+}
+
+.date-wrapper button {
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    border: none;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    text-align: center;
+    font-weight: 800;
+    font-size: 15px;
+    font-family: "Figtree", sans-serif;
+    border-radius: 4px;
+}
+
+.date-wrapper p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.title-wrapper h2 {
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.title-wrapper p {
+    color: hsl(0, 0%, 50%);
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.avatar-wrapper {
+    border: 1px solid black;
+    display: flex;
+}
+
+
+/* Font weights
+600, 800 */
