@@ -6,6 +6,9 @@
 
 body {
     background-color: hsl(47, 88%, 63%);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
 
 .container {
@@ -16,7 +19,7 @@ body {
     font-family: "Figtree", sans-serif;
     border-radius: 0.75rem;
     border: 2px solid black;
-    box-shadow: 2px 2px 4px;
+    box-shadow: 10px 10px;
     max-width: 380px;
 }
 
@@ -44,7 +47,7 @@ body {
 }
 
 .date-wrapper p {
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -58,12 +61,20 @@ body {
 .title-wrapper p {
     color: hsl(0, 0%, 50%);
     font-size: 16px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .avatar-wrapper {
-    border: 1px solid black;
     display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
+
+
+
+.avatar-wrapper h4 {
+    font-weight: 800;
 }
 
 
