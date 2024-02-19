@@ -20,11 +20,11 @@ body {
     border-radius: 1rem;
     border: 1px solid black;
     box-shadow: 10px 10px;
-    max-width: 325px;
+    max-width: 350px;
 }
 
 .container img {
-    max-width: 280px;
+    max-width: 315px;
     height: auto;
     align-self: center;
     border-radius: 0.75rem;
