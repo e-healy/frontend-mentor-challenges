@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body {
+    background-color:  hsl(225, 100%, 94%);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    background-color: white;
+    margin: 10px;
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.container .hero-img {
+    max-width: 400px;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.text-wrapper {
+    margin: 40px;
+    font-family: "Red Hat Display", sans-serif;
+    text-align: center;
+}
+
+.hero-title h2 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.hero-title p {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.music-plan {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.music-plan-item span {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.music-plan-item p {
+    font-size: 14px;
+    margin-right: 40px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: hsl(224, 23%, 55%);
+}
+
+.music-plan-item .change-btn {
+    background: none;
+    border: none;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.music-plan-item .change-btn:hover {
+    color: hsl(224, 23%, 55%);
+}
+
+.end-btn {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.end-btn .pay-btn {
+    background-color: hsl(245, 75%, 52%);
+    font-family: "Red Hat Display", sans-serif;
+    color: #fff;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 hsl(245, 75%, 52%);
+    margin-bottom: 20px;
+}
+
+.end-btn .cancel-btn {
+    font-family: "Red Hat Display", sans-serif;
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+/* Styles
+Primary
+Pale blue: hsl(225, 100%, 94%)
+Bright blue: hsl(245, 75%, 52%)
+
+Neutral
+Very pale blue: hsl(225, 100%, 98%)
+Desaturated blue: hsl(224, 23%, 55%)
+Dark blue: hsl(223, 47%, 23%) 
+
+Body Copy
+Font size (paragraph): 16px
+
+Font
+Family: Red Hat Display
+Weights: 500, 700, 900 */
