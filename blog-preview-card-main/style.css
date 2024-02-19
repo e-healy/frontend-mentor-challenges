@@ -17,21 +17,21 @@ body {
     flex-direction: column;
     padding: 1.2rem;
     font-family: "Figtree", sans-serif;
-    border-radius: 0.75rem;
-    border: 2px solid black;
+    border-radius: 1rem;
+    border: 1px solid black;
     box-shadow: 10px 10px;
-    max-width: 380px;
+    max-width: 325px;
 }
 
 .container img {
-    max-width: 350px;
+    max-width: 280px;
     height: auto;
     align-self: center;
     border-radius: 0.75rem;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
-.date-wrapper button {
+.date-wrapper span {
     background-color: hsl(47, 88%, 63%);
     color: hsl(0, 0%, 7%);
     border: none;
@@ -48,7 +48,7 @@ body {
 
 .date-wrapper p {
     margin-top: 15px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -60,21 +60,29 @@ body {
 
 .title-wrapper p {
     color: hsl(0, 0%, 50%);
-    font-size: 16px;
+    font-size: 17px;
     margin-bottom: 20px;
 }
 
 .avatar-wrapper {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
-
+    gap: 5px;
+    align-items: center;
+    height: 50px;
 }
 
-
+.avatar-wrapper img {
+    display: flex;
+    float: left;
+    margin-top: 14px;
+    align-content: flex-end;
+}
 
 .avatar-wrapper h4 {
     font-weight: 800;
+    margin-bottom: 5px;
+    margin-left: 5px;
 }
 
 
