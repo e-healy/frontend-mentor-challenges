@@ -49,11 +49,17 @@ body {
 .music-plan {
     display: flex;
     background-color: hsl(225, 100%, 98%);
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 10px;
-    border-radius: 8px;
-    margin-bottom: 20px;
+    padding: 13px 1px 13px 1px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.music-plan-item .music-image {
+    margin-top: 5px;
 }
 
 .music-plan-item span {
@@ -82,6 +88,7 @@ body {
 
 .music-plan-item .change-btn:hover {
     color: hsl(224, 23%, 55%);
+    text-decoration: none;
 }
 
 .end-btn {
@@ -99,8 +106,15 @@ body {
     font-size: 14px;
     border-radius: 8px;
     border: none;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 hsl(245, 75%, 52%);
+    box-shadow: 0 10px 30px hsla(245, 75%, 52%, 0.4);
     margin-bottom: 20px;
+}
+
+.end-btn .pay-btn:hover {
+    background-color: hsl(245, 75%, 60%);
+    transform: translateY(-0.125rem);
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .end-btn .cancel-btn {
@@ -110,7 +124,17 @@ body {
     font-size: 14px;
     color: hsl(224, 23%, 55%);
     font-weight: 700;
+    transition: 0.3s;
 }
+
+.end-btn .cancel-btn:hover {
+    color: hsl(223, 47%, 23%);
+    transform: translateY(-0.125rem);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
 
 /* Styles
 Primary
