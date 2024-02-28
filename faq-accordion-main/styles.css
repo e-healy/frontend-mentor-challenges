@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+
+/* .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} */
+
+body {
+    background-color: hsl(275, 100%, 97%);
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-family: "Work Sans", sans-serif;
+}
+
+.content-wrapper {
+    max-width: 550px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.title img {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.title h1 {
+    font-size: 50px;
+    color: hsl(292, 42%, 14%);
+}
+
+.accordion-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: hsl(292, 42%, 14%);
+    margin-bottom: 10px;
+}
+
+.accordion-question img {
+    cursor: pointer;
+}
+
+.accordion-answer {
+    visibility: hidden;
+    font-size: 14px;
+    color: hsl(292, 16%, 49%);
+    border-bottom: 1px solid hsl(292, 16%, 49%);
+}
+
+
+/* ## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light pink: hsl(275, 100%, 97%)
+- Grayish purple: hsl(292, 16%, 49%)
+- Dark purple: hsl(292, 42%, 14%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraphs): 16px
+
+### Font
+
+- Family: [Work Sans](https://fonts.google.com/specimen/Work+Sans)
+- Weights: 400, 600, 700 */
