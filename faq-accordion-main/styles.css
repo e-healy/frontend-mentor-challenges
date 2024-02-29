@@ -19,6 +19,7 @@ body {
     background-image: url(./assets/images/background-pattern-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: fixed;
     display: grid;
     place-items: center;
     min-height: 100vh;
@@ -30,13 +31,12 @@ body {
     background-color: #fff;
     border-radius: 12px;
     box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.2);
-    padding: 30px;
+    padding: 35px;
 }
 
 .title {
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
 }
 
 .title img {
@@ -53,21 +53,37 @@ body {
 .accordion-question {
     display: flex;
     justify-content: space-between;
+    font-weight: 700;
     align-items: center;
+    padding: 18px 0;
     font-size: 14px;
     color: hsl(292, 42%, 14%);
-    margin-bottom: 10px;
 }
 
-.accordion-question img {
+.accordion-question:hover {
+    color: rgb(198, 4, 236);
+    transition: 0.5s;
     cursor: pointer;
 }
 
+.accordion-btn {
+    cursor: pointer;
+    background-color: transparent;
+    margin-left: 10px;
+    border: none;
+}
+
 .accordion-answer {
-    visibility: hidden;
-    font-size: 14px;
+    font-size: 15px;
     color: hsl(292, 16%, 49%);
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+.accordion-line {
     border-bottom: 1px solid hsl(292, 16%, 49%);
+    opacity: 0.2;
 }
 
 
