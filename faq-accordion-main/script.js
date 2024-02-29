@@ -16,4 +16,3 @@ for (let i = 0; i < accordionItems.length; i++) {
         };
     })
 }
-
