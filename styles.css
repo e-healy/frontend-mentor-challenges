@@ -2,14 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid black; */
     font-family: "Playfair Display", sans-serif;
 }
 
 body {
     background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
     min-height: 100vh;
-    margin: 50px;
 }
 
 .content-wrapper {
@@ -30,8 +28,9 @@ header {
 header h1 {
     font-weight: 900;
     font-size: 60px;
+    margin-top: 40px;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 0 black;
 }
 
 header h3 {
@@ -41,7 +40,6 @@ header h3 {
 }
 
 .grid {
-    border: 1px solid black;
     padding: 20px;
     max-width: 1000px;
 }
@@ -72,12 +70,8 @@ header h3 {
 
 .card-item img {
     max-width: 300px;
-    height: auto;
+    /* height: auto; */
     border-radius: 8px;
-}
-
-.card-btn-container {
-    border: 1px solid black;
 }
 
 .card-btn {
@@ -88,22 +82,38 @@ header h3 {
     border-radius: 6px;
 }
 
-#codeBtn {
+#codeBtn1, #codeBtn2, #codeBtn3, #codeBtn4 {
     background-color: #8ec5fc;
     transition: 0.5s;
 }
 
-#liveBtn {
+#liveBtn1, #liveBtn2, #liveBtn3, #liveBtn4 {
     background-color: #e0c3fc;
     transition: 0.5s;
 }
 
-#codeBtn:hover {
+#codeBtn1:hover, #codeBtn2:hover, #codeBtn3:hover, #codeBtn4:hover {
     background-color: #3098ff;
     transition: 0.5s;
 }
 
-#liveBtn:hover {
+#liveBtn1:hover, #liveBtn2:hover, #liveBtn3:hover, #liveBtn4:hover {
     background-color: #b567ff;
     transition: 0.5s;
+}
+
+.footer {
+    background-color: #5c2f86;
+    padding: 50px;
+}
+
+.footer p {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.footer span {
+    color: rgb(252, 84, 84);
 }
