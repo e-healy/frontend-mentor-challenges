@@ -1,3 +1,13 @@
+const codeBtn1 = document.getElementById("codeBtn1");
+codeBtn1.addEventListener("click", function () {
+    window.location.href = "https://github.com/e-healy/frontend-mentor-challenges/tree/main/qr-code-component"
+});
+
+const liveBtn1 = document.getElementById("liveBtn1");
+liveBtn1.addEventListener("click", function () {
+    window.location.href = "./qr-code-component/index.html"
+});
+
 const codeBtn2 = document.getElementById("codeBtn2");
 codeBtn2.addEventListener("click", function () {
     window.location.href = "https://github.com/e-healy/frontend-mentor-challenges/tree/main/blog-preview-card-main"
