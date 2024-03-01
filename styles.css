@@ -21,6 +21,7 @@ header {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     color: #fff;
 }
@@ -30,12 +31,12 @@ header h1 {
     font-size: 60px;
     margin-top: 40px;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 4px 4px 4px black;
 }
 
 header h3 {
     font-style: italic;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 3px 3px 4px black;
     font-size: 35px;
 }
 
@@ -113,9 +114,19 @@ header h3 {
     text-align: center;
     color: #8d51c5;
     font-weight: 700;
+    font-size: 18px;
     letter-spacing: 1px;
 }
 
 .footer span {
     color: rgb(252, 84, 84);
+}
+
+@media (max-width: 650px) {
+    .header h1 {
+        font-size: 45px;
+    }
+    .header h3 {
+        font-size: 25px;
+    }
 }
