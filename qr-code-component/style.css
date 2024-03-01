@@ -14,9 +14,9 @@ body {
 }
 
 .container {
-    max-width: 360px;
+    max-width: 340px;
     background-color: #fff;
-    padding: 1.5rem;
+    padding: 1.1rem;
     border-radius: 1rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin: 0;
